@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f0f0f0, #d6e0f5);
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #00bcd4;
+            padding: 20px;
+        }
+
+        .logo img {
+            max-width: 120px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: center;
+            background-color: #0097a7;
+            padding: 15px;
+        }
+
+        .navigation a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .navigation a:hover {
+            color: #ffeb3b;
+        }
+
+        .content {
+            display: flex;
+            flex: 1;
+            margin: 20px;
+            gap: 20px;
+        }
+
+        .side-bar {
+            background-color: #b2ebf2;
+            padding: 15px;
+            flex-basis: 25%;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .side-bar a {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #00796b;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .side-bar a:hover {
+            color: #004d40;
+            padding-left: 10px;
+        }
+
+        .body-area {
+            flex-basis: 70%;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .body-area img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        ul {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="11389.jpg" alt="Personal Logo">
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="navigation">
+            <a href="#">Google</a> |
+            <a href="#">UTHM</a> |
+            <a href="#">Author</a> |
+            <a href="#">LinkedIn</a>
+        </div>
+
+        <!-- Main Content Section -->
+        <div class="content">
+            <!-- Sidebar with Links -->
+            <div class="side-bar">
+                <a href="#">About Me</a>
+                <hr>
+                <a href="#">My Skills</a>
+                <hr>
+                <a href="#">My Picture</a>
+            </div>
+
+            <!-- Body Area -->
+            <div class="body-area">
+                <img src="photo.jpg" alt="Profile Picture">
+                <ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul>
+                <p style="font-style: italic; font-family: Georgia, 'Times New Roman', Times, serif;">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora ex ab neque, alias, facilis,
+                    eaque magnam quod itaque adipisci autem laboriosam sit cupiditate? Quos libero repellendus tenetur
+                    perferendis, dolorem veritatis rem cupiditate beatae. Est eos perferendis atque voluptas doloremque 
+                    illum esse dolorem dicta. Commodi a voluptatem fugit similique consequatur quis?
+                </p>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            &copy; 2024 Wan Aniq | All Rights Reserved
+        </div>
+    </div>
+
+</body>
+</html>
